@@ -10,5 +10,6 @@ ENV BROKER_PORT 5672
 ENV BROKER_COUNT cic_admin
 ENV BROKER_PWD JYcxys@3030
 
+EXPOSE 5555
 
 CMD /code/docker-entrypoint.sh

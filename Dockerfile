@@ -10,4 +10,4 @@ ENV BROKER_PORT 5672
 
 EXPOSE 5555
 
-CMD /code/docker-entrypoint.sh
+CMD docker-entrypoint.sh

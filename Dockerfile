@@ -10,6 +10,7 @@ RUN apt-get install libfontconfig
 
 ENV BROKER_HOST 47.102.218.137
 ENV BROKER_PORT 5672
+ENV VIRTUAL_HOST 'yct'
 
 EXPOSE 5555
 
